@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    font-size: 18px;
+}
+
+.container{
+    margin: auto;
+    background-color: black;
+    padding: 2em;
+    width: 90vw;
+    height: 30vw;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

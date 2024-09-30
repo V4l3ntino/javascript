@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Obtener valor de input</title>
+</head>
+<body>
+    <h1>Escribe palabras polídromas</h1>
+
+
+    <label style="color: red; display: none;" id="incorrect">Esta palabra no es Polídroma</label>
+    <label style="color: green; display: none;" id="correct">Correcto!</label>
+    <form onsubmit="handleSubmit(event)">
+        <input type="tex" name="value" id="palabra">
+        <button type="submit">Enviar</button>
+    </form>
+    
+    <h2 id="result"></h2>
+    <script src="./app.js">
+    </script>
+</body>
+</html>
