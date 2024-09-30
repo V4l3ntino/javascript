@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Obtener valor de input</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1>Conversor a Minúsculas y Mayúsuculas</h1>
+
+    <div style="display: column; gap: 20px; justify-content: space-around;">
+        <form onsubmit="handleSubmit(event)">
+            <input type="text" id="input">
+            <button type="submit">Enviar</button>
+        </form>
+        <br>
+        <div style="display: flex;">
+            <div style="display: flex; flex-direction: column;">
+                <label>Minúsucalas</label>
+                <input type="text" id="minus" readonly>
+            </div>
+            <div style="display: flex; flex-direction: column;">
+                <label>Mayúsuculas</label>
+                <input type="text" id="mayus" readonly>
+            </div>
+        </div>
+    </div>
+    <script src="./app.js">
+    </script>
+</body>
+</html>
