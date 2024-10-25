@@ -7,7 +7,7 @@ const handleSubmit = (event) => {
     const numero = document.getElementById("numero").value
     lista = []
     for(i=1; i<=numero; i++){
-        if(esPrimo(i) == false) continue
+        if( (i) == false) continue
         lista = [...lista, i]
     }
     let result = document.getElementById("result")
